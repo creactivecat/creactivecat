@@ -1,0 +1,42 @@
+
+
+<svg width="900" height="500" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font: bold 22px 'Courier New', Consolas, monospace; fill: #ffffff; }
+    .subtitle { font: 14px 'Courier New', Consolas, monospace; fill: #8b949e; letter-spacing: 1px; }
+    .line { stroke: #21262d; stroke-width: 1; }
+    .key { font: 14px 'Courier New', Consolas, monospace; fill: #8b949e; }
+    .val { font: 14px 'Courier New', Consolas, monospace; fill: #c9d1d9; }
+    .cmd { font: bold 14px 'Courier New', Consolas, monospace; fill: #c9d1d9; }
+    .cmd-arg { font: 14px 'Courier New', Consolas, monospace; fill: #c9d1d9; }
+    .prompt { font: bold 14px 'Courier New', Consolas, monospace; fill: #3fb950; }
+    .container { animation: fadeIn 0.8s ease-in forwards; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+  </style>
+
+  <rect width="898" height="498" x="1" y="1" fill="#0d1117" rx="10" stroke="#21262d" stroke-width="1" />
+
+  <g transform="translate(50, 40)">
+    <g class="container">
+      <text x="0" y="20" class="title">Luca CM</text>
+      <text x="0" y="50" class="subtitle">THE CREACTIVE-CAT</text>
+      <line x1="0" y1="65" x2="800" y2="65" class="line" />
+
+      <text x="0" y="100"><tspan class="key">Location</tspan><tspan x="140" class="val">Milan, Italy</tspan></text>
+      <text x="0" y="125"><tspan class="key">Focus</tspan><tspan x="140" class="val">DevSecOPS - MLOPS - CryptOPS</tspan></text>
+
+      <text x="0" y="175"><tspan class="cmd"># ping</tspan><tspan class="cmd-arg"> --target CreactiveCAT</tspan></text>
+
+      <text x="0" y="205"><tspan class="key">github</tspan><tspan x="140" class="val">github.com/creactivecat</tspan></text>
+      <text x="0" y="230"><tspan class="key">pubkey ED A</tspan><tspan x="140" class="val">SHA256:aM9Hk/02y9OQrnl99WfCP0Ory9eL09JsfnBf1mpiEv4</tspan></text>
+      <text x="0" y="255"><tspan class="key">pubkey ED S</tspan><tspan x="140" class="val">SHA256:CqpPJfSQ/XmmgGN5oMi1OwUpkPtL/d1GVtXL4cg/v+c</tspan></text>
+
+      <text x="0" y="305"><tspan class="cmd"># cat</tspan><tspan class="cmd-arg"> /proc/current_focus</tspan></text>
+
+      <text x="0" y="335"><tspan class="prompt">&gt;</tspan><tspan class="val" dx="10">Engineering memory-safe cryptographic suites</tspan></text>
+      <text x="0" y="360"><tspan class="prompt">&gt;</tspan><tspan class="val" dx="10">Fuzzing cryptographic handshakes and authentication flows</tspan></text>
+      <text x="0" y="385"><tspan class="prompt">&gt;</tspan><tspan class="val" dx="10">Hardening systems against side-channel vulnerabilities</tspan></text>
+      <text x="0" y="410"><tspan class="prompt">&gt;</tspan><tspan class="val" dx="10">Maintaining zero-trust infrastructure</tspan></text>
+    </g>
+  </g>
+</svg>
